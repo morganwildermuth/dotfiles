@@ -6,7 +6,7 @@
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-export EDITOR=vim
+export EDITOR=/usr/bin/vim
 
 
 # command line details concerning git and helpful coloring
