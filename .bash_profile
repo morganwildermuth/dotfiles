@@ -1,17 +1,27 @@
-##
-# Your previous /Users/morganwildermuth/.bash_profile file was backed up as /Users/morganwildermuth/.bash_profile.macports-saved_2016-11-21_at_14:03:12
-##
+ # MacPorts Installer addition on 2016-11-21_at_14:03:12: adding an appropriate PATH variable for use with MacPorts.
 
-# MacPorts Installer addition on 2016-11-21_at_14:03:12: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 export EDITOR=/usr/bin/vim
 
+export PATH="/Users/morganwildermuth/Qt5.5.1/5.5/clang_64/bin:$PATH"
+export PATH="/Users/morganwildermuth/packer:$PATH"
+
+#secrets
+export AWS_ACCESS_KEY_ID_PACKER=""
+export AWS_SECRET_ACCESS_KEY_ID_PACKER=""
+export AWS_REGION=""
+
 
 # command line details concerning git and helpful coloring
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 . /opt/local/etc/profile.d/bash_completion.sh
+fi
+
+# command line completion for git
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
 fi
 
 source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
