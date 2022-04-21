@@ -17,3 +17,6 @@ Change key bindings
 
 Accessing iCloud Files between Macs
 * `vim ~/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop`
+
+NPM Set-up for base JS app
+* https://webpack.js.org/guides/getting-started/
