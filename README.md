@@ -3,8 +3,9 @@
 Setting up a new Mac:
 
 Install 
-* vim dotfile at ~/.vimrc
+* download git prompt `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
 * bash profile dotfile at ~/.bash_profile
+* vim dotfile at ~/.vimrc
 * tmux dotfile at vim ~/.tmux.conf
 * run `source <file_location>` for all modified files here
 
