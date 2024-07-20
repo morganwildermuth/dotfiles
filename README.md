@@ -6,6 +6,7 @@ Install
 * vim dotfile at ~/.vimrc
 * bash profile dotfile at ~/.bash_profile
 * tmux dotfile at vim ~/.tmux.conf
+* run `source <file_location>` for all modified files here
 
 Run 
 * `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
