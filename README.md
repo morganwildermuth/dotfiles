@@ -18,6 +18,9 @@ Run
 Change key bindings
 * System Preferences > Keyboard > Keyboard, click the Modifier Keys button and change CapsLock to Ctrl
 
+Using a specific coding language version
+* use rbenv or pyenv, don't try to manage it yourself. Gets nasty quick.
+  
 Accessing iCloud Files between Macs
 * `vim ~/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop`
 
