@@ -10,7 +10,7 @@ Install
 Run 
 * `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 * `vim +PluginInstall +qall`
-* `tmux kill-server`
+* You may need to run `tmux kill-server` but if you get the result `error connecting to /private/tmp/tmux-501/default` then it means there is no server to kill. Continue on.
 
 Change key bindings
 * System Preferences > Keyboard > Keyboard, click the Modifier Keys button and change CapsLock to Ctrl
