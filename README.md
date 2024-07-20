@@ -5,9 +5,10 @@ Setting up a new Mac:
 Install 
 * download git prompt `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
 * bash profile dotfile at ~/.bash_profile
+* source `~/.bash_profile` from shell
 * vim dotfile at ~/.vimrc
+* run `:source ~/.vimrc` from vim
 * tmux dotfile at vim ~/.tmux.conf
-* run `source <file_location>` for all modified files here
 
 Run 
 * `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
