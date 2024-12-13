@@ -16,7 +16,7 @@ Run
 * You may need to run `tmux kill-server` but if you get the result `error connecting to /private/tmp/tmux-501/default` then it means there is no server to kill. Continue on.
 
 Change key bindings
-* System Preferences > Keyboard > Keyboard, click the Modifier Keys button and change CapsLock to Ctrl
+* System Settings -> Keyboard -> Keyboard Shortcuts -> Modifier Keys: change CapsLock to Ctrl
 
 Using a specific coding language version
 * use rbenv or pyenv, don't try to manage it yourself. Gets nasty quick.
