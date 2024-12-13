@@ -24,7 +24,7 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
+source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWUPSTREAM="auto"
 GIT_PS1_SHOWCOLORHINTS="yes"
